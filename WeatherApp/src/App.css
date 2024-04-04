@@ -1,0 +1,165 @@
+:root {
+    color-scheme: dark;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    min-height: 100vh;
+}
+
+body {
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'montserrat', sans-serif;
+    color: #fff;
+    background-image: url('./image/firefly.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, .7);
+    min-height: 100vh;
+}
+
+.header {
+    padding: 50px 20px 30px 20px;
+}
+
+.header h1 {
+    font-size: 50px;
+    color: #fbb034;
+}
+
+.header input {
+    width: 100%;
+    padding: 10px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    border-bottom: 2px solid #fbb034;
+    text-align: center;
+    font-size: 20px;
+    color: #f2f2f2;
+}
+
+.content {
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.temp {
+    margin-top: 35px;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 35px;
+}
+
+.feelsLike {
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+
+.desc {
+    margin-top: 35px;
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+
+.minmax {
+    font-size: 30px;
+}
+
+.wind {
+    font-size: 30px;
+    margin-top: 35px;
+}
+
+.pressure {
+    font-size: 30px;
+    margin-top: 35px;
+}
+
+.sunrise {
+    font-size: 30px;
+    margin-top: 35px;
+}
+
+.sunset {
+    font-size: 30px;
+    margin-top: 35px;
+}
+
+.plus {
+    font-size: 30px;
+    color: #fbb034;
+    width: 120px;
+    border-radius: 10px;
+    border: 1px solid;
+    padding: 5px;
+}
+
+.content2 div {
+    display: flex;
+    font-size: 15px;
+    flex-direction: column;
+    display: inline-block;
+    text-align: center;
+    margin: 15px;
+}
+
+.oldList {
+    border: 3px solid white;
+    position: relative;
+}
+
+.fa-trash {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.time {
+    margin-bottom: 15px;
+}
+
+hr {
+    size: 5px;
+    color: white;
+    margin-top: 35px;
+    width: 50%;
+}
+
+p {
+    margin-top: 35px;
+    font-size: 15px;
+    text-align: center;
+    margin: 15px;
+}
+
+h3 {
+    margin-top: 35px;
+}
+
+.humidity {
+    font-size: 30px;
+}
+
+.oldCity {
+    font-size: 20px
+}
