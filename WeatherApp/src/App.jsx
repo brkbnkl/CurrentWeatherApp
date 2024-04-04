@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import Header from './Header';
-import WeatherInfo from './WeatherInfo';
-import SaveButton from './SaveButton';
-import PreviousSearches from './PreviousSearches';
-import { formatCityData } from './helpers';
+import Header from './components/Header';
+import WeatherInfo from './components/WeatherInfo';
+import SaveButton from './components/SaveButton';
+import PreviousSearches from './components/PreviousSearches';
+import { formatCityData } from './components/helpers';
 import './App.css';
 
 const App = () => {
